@@ -2,7 +2,7 @@ import qnv
 import unittest	
 import numpy as np
 from ddt import ddt,file_data,unpack,data
-
+q = 9
 @ddt
 class Testquatrotate(unittest.TestCase):
 	@file_data("test-data/test_quatRotate.json")
